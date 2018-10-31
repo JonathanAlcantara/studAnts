@@ -16,7 +16,8 @@ webs = Blueprint('webs',
                  template_folder='templates',
                  static_folder='static'
                  )
-                 
+
+
 @webs.route('/')
 def hello():
     return "Hello World!"
